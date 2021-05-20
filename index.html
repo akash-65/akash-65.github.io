@@ -27,8 +27,9 @@
 <body style="background-color:#343a40;">
 
 
+
 	<!-- Navbar Starts here -->
-	<nav class="navbar navbar-expand-lg navbar-dark center mx-auto text-white" style="background-color: #302f2f;">
+	<nav class="navbar navbar-expand-lg navbar-dark center mx-auto " style="background-color: #302f2f;">
 
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
 			aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,7 +39,7 @@
 		<div class="collapse navbar-collapse mx-3 h4 " id="navbarSupportedContent"
 			style="font-family:Times New Roman; font-size:30px;">
 
-			<ul class="navbar-nav  mx-auto my-2 px-5 text-capitalize">
+			<ul class="navbar-nav  mx-auto my-2 px-5 text-white text-capitalize">
 
 				<li class="nav-item mr-5">
 					<a class="nav-link" href="#profile"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
@@ -80,183 +81,162 @@
 
 	<!-- Main Section -->
 
-	<div class="row ">
+	<div class="container text-white mx-auto my-5">
 
-		<div class="col-sm-4 mx-5 my-3">
-			<img src="images/anime.png" alt="Responsive image" height="500" width="500">
+		<div class="row justify-content-center">
+
+			<div class="col-5">
+				<img src="images/anime.png" class="img-fluid" alt="Responsive image">
+			</div>
+
+			<div class="col-md-7">
+
+				<h1 class="display-11 text- " style="font-family:Times New Roman;">Hello There, I'm <span
+						style="color:#3cbbdb">Akash Patil</span>
+				</h1>
+
+				<hr style="height:2px;border-width:0;color:gray;background-color:gray">
+
+				<h5 class=" my-3 h5a text-justify"
+					style="font-family:Georgia; color:rgb(184, 175, 175); line-height: 1.5">
+					I'm a Web and Android Developer, Seeking an entry-level position as a Programmer. I have experience
+					in Django, MySql, Android, etc. Apart from that, I love to trekking and travelling.
+				</h5>
+
+				<a type="button" class="btn btn-outline-success btn-lg "
+					href="https://drive.google.com/file/d/1vehKjUPUASObtvzRsnbCWyZ-Hdrltelg/view?usp=sharing"
+					target="_blank">
+					<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+						class="bi bi-file-earmark-arrow-down-fill" viewBox="0 0 16 16">
+						<path
+							d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0zM9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1zm-1 4v3.793l1.146-1.147a.5.5 0 0 1 .708.708l-2 2a.5.5 0 0 1-.708 0l-2-2a.5.5 0 0 1 .708-.708L7.5 11.293V7.5a.5.5 0 0 1 1 0z" />
+					</svg>
+					<span>Download Resume </span>
+				</a>
+
+			</div>
+
 		</div>
-
-		<div class="col-sm-6 my-3">
-
-			<br><br>
-			<h1 class="display-1 text-white" style="font-family:Times New Roman">Hello There, I am Akash Patil</h1>
-			<hr style="height:2px;border-width:0;color:gray;background-color:gray">
-			<br>
-			<p class="h4 my-3" style="font-family:Georgia; color:rgb(184, 175, 175); line-height: 1.6">
-				I'm a Web and Android Developer, Seeking an entry-level position as a Programmer. I have experience in
-				Django, MySql, Android, etc. Apart from that, I love trekking and travelling.
-			</p>
-
-			<a type="button" class="btn btn-outline-success btn-lg mt-3"
-				href="https://drive.google.com/file/d/1vehKjUPUASObtvzRsnbCWyZ-Hdrltelg/view?usp=sharing"
-				target="_blank">
-				<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-					class="bi bi-file-earmark-arrow-down-fill" viewBox="0 0 16 16">
-					<path
-						d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0zM9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1zm-1 4v3.793l1.146-1.147a.5.5 0 0 1 .708.708l-2 2a.5.5 0 0 1-.708 0l-2-2a.5.5 0 0 1 .708-.708L7.5 11.293V7.5a.5.5 0 0 1 1 0z" />
-				</svg>
-				<span>Download Resume </span>
-			</a>
-
-		</div>
-
 	</div>
 	<br>
 
 
 	<!-- Profile -->
 
-	<div class="profile text-white ml-5 my-5 " id="profile">
+	<div class="profile margin-m1 text-white" id="profile">
 
-		<div class="text-left display-3 font-weight-normal mx-5"
-			style="font-family:Georgia ; color:rgb(57, 148, 223); letter-spacing: 6px;">
-			PROFILE
+		<div class="display-11 margin-m1" style="font-family:Georgia ; color:rgb(57, 148, 223); letter-spacing: 4px;">
+			Profile
 			<hr style="height:2px;border-width:0;color:gray;background-color:gray">
 		</div>
 
-		<div class="row ml-5">
+		<div class="card bg-dark margin-m1" style="max-width: 1300px;">
+			<div class="row no-gutters">
 
-			<div class="col-sm-4">
-				<img src="images/profile.png" alt="Responsive image" width="450" height="450">
-			</div>
-
-			<div class="col-sm-6 ml-5 text-white">
-				<br>
-
-				<p class="mx-5">
-				<h1 class="display-3" style="font-family:Times New Roman; color:rgb(255, 255, 255); font: size 50px;">
-					Akash Ashok Patil</h1>
-				<p class="h5" style="font-family:Verdana; font: size 25px; color:rgb(158, 155, 155)">
-					<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-						class="bi bi-award-fill" viewBox="0 0 16 16">
-						<path
-							d="m8 0 1.669.864 1.858.282.842 1.68 1.337 1.32L13.4 6l.306 1.854-1.337 1.32-.842 1.68-1.858.282L8 12l-1.669-.864-1.858-.282-.842-1.68-1.337-1.32L2.6 6l-.306-1.854 1.337-1.32.842-1.68L6.331.864 8 0z" />
-						<path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z" />
-					</svg>
-					Bachelor of Engineering (Computer Science 2022)
-				</p>
-				</p>
-
-				<p class="mx-5">
-				<table class="table table-borderless table-hover table-dark">
-					<thead>
-						<tr>
-							<th scope="col" style="width: 30%"></th>
-							<th scope="col" style="width: 10%"></th>
-							<th scope="col" style="width: 50%"></th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-							<td class="h4" style="font-family:Verdana; color:rgb(184, 175, 175);">Date of Birth</td>
-							<th scope="row"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
-									fill="currentColor" class="bi bi-calendar2-event-fill" viewBox="0 0 16 16">
-									<path
-										d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zm9.954 3H2.545c-.3 0-.545.224-.545.5v1c0 .276.244.5.545.5h10.91c.3 0 .545-.224.545-.5v-1c0-.276-.244-.5-.546-.5zM11.5 7a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1z" />
-								</svg></th>
-							<td class="h4" style="font-family:Verdana;">January 10, 2000
-								<hr style="height:2px;border-width:0;color:gray;background-color:gray">
-							</td>
-
-						</tr>
-						<tr>
-							<td class="h4" style="font-family:Verdana; color:rgb(184, 175, 175);">Address</td>
-							<th scope="row"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
-									fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
-									<path
-										d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
-								</svg></th>
-							<td class="h4" style="font-family:Verdana;">Pune, Maharashtra
-								<hr style="height:2px;border-width:0;color:gray;background-color:gray">
-							</td>
-						</tr>
-						<tr>
-							<td class="h4" style="font-family:Verdana; color:rgb(184, 175, 175);">Phone</td>
-							<th scope="row"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
-									fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
-									<path fill-rule="evenodd"
-										d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
-								</svg></th>
-							<td class="h4" style="font-family:Verdana;">7620532296
-								<hr style="height:2px;border-width:0;color:gray;background-color:gray">
-							</td>
-						</tr>
-						<tr>
-							<td class="h4" style="font-family:Verdana; font: size 20px; color:rgb(158, 155, 155)">Email
-							</td>
-							<th scope="row"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
-									fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
-									<path
-										d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z" />
-								</svg></th>
-							<td class="h4"><a href="mailto:akash.ap1283@gmail.com">akash.ap1283@gmail.com
-									<hr style="height:2px;border-width:0;color:gray;background-color:gray">
-								</a></td>
-						</tr>
-					</tbody>
-				</table>
-				</p>
-
-				<div class="container text-left">
-
-					<!-- Social buttons -->
-					<!-- <ul class="list-unstyled list-inline text-left">
-						<li class="list-inline-item">
-							<a class="btn btn-primary btn-lg btn-floating rounded-circle" style="background-color: #5e8dcc;"
-								href="https://www.linkedin.com/in/akash-patil-80b9b4190/" target="_blank" role="button"><i
-									class="fa fa-linkedin"></i></a>
-						</li>
-						<li class="list-inline-item">
-							<a class="btn btn-primary btn-lg btn-floating rounded-circle" style="background-color: #31363d;"
-								href="https://github.com/akash-65" target="_blank" role="button"><i
-									class="fa fa-github"></i></a>
-						</li>
-						<li class="list-inline-item">
-							<a class="btn btn-primary btn-lg btn-floating rounded-circle" style="background-color: #33dd5e;"
-								href="https://wa.me/7620532296" target="_blank" role="button"><i
-									class="fa fa-whatsapp"></i></a>
-						</li>
-						<li class="list-inline-item">
-							<a class="btn btn-primary btn-lg btn-floating rounded-circle" style="background-color: #e04bc7;"
-								href="https://www.instagram.com/akash_ap65/?utm_medium=copy_link" target="_blank"
-								role="button"><i class="fa fa-instagram"></i></a>
-						</li>
-						<li class="list-inline-item">
-							<a class="btn btn-primary btn-lg btn-floating rounded-circle" style="background-color: #19539e;"
-								href="https://www.facebook.com/people/Akash-Patil/100005675852501/" target="_blank"
-								role="button"><i class="fa fa-facebook"></i></a>
-						</li>
-					</ul> -->
-
+				<div class="col-md-4 center">
+					<img src="images/profile.png" class="rounded mx-auto d-block img-fluid image1" alt="...">
 				</div>
 
+				<div class="col-md-8">
+					<div class="card-body">
+
+						<h5 class="card-title display-22" style="font-family:Times New Roman;">Akash Ashok Patil</h5>
+						<p class="display-23 " style="font-family:Verdana; color:rgb(184, 175, 175);">
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+								class="bi bi-award-fill" viewBox="0 0 16 16">
+								<path
+									d="m8 0 1.669.864 1.858.282.842 1.68 1.337 1.32L13.4 6l.306 1.854-1.337 1.32-.842 1.68-1.858.282L8 12l-1.669-.864-1.858-.282-.842-1.68-1.337-1.32L2.6 6l-.306-1.854 1.337-1.32.842-1.68L6.331.864 8 0z" />
+								<path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z" />
+							</svg>
+							Bachelor of Engineering (Computer Science 2022)
+						</p>
+
+						<p class="">
+						<table class="table table-borderless table-hover table-dark">
+							<thead>
+								<tr>
+									<th scope="col" style="width: 30%"></th>
+									<th scope="col" style="width: 10%"></th>
+									<th scope="col" style="width: 40%"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td class="display-23" style="font-family:Verdana; color:rgb(184, 175, 175);">Date
+										of Birth</td>
+									<th scope="row"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+											fill="currentColor" class="bi bi-calendar2-event-fill" viewBox="0 0 16 16">
+											<path
+												d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zm9.954 3H2.545c-.3 0-.545.224-.545.5v1c0 .276.244.5.545.5h10.91c.3 0 .545-.224.545-.5v-1c0-.276-.244-.5-.546-.5zM11.5 7a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1z" />
+										</svg></th>
+									<td class="display-23" style="font-family:Verdana;">January 10, 2000
+										<hr style="height:2px;border-width:0;color:gray;background-color:gray">
+									</td>
+
+								</tr>
+								<tr>
+									<td class="display-23" style="font-family:Verdana; color:rgb(184, 175, 175);">
+										Address</td>
+									<th scope="row"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+											fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+											<path
+												d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+										</svg></th>
+									<td class="display-23" style="font-family:Verdana;">Pune, Maharashtra
+										<hr style="height:2px;border-width:0;color:gray;background-color:gray">
+									</td>
+								</tr>
+								<tr>
+									<td class="display-23" style="font-family:Verdana; color:rgb(184, 175, 175);">Phone
+									</td>
+									<th scope="row"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+											fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+											<path fill-rule="evenodd"
+												d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+										</svg></th>
+									<td class="display-23" style="font-family:Verdana;">7620532296
+										<hr style="height:2px;border-width:0;color:gray;background-color:gray">
+									</td>
+								</tr>
+								<tr>
+									<td class="display-23" style="font-family:Verdana; color:rgb(158, 155, 155)">Email
+									</td>
+									<th scope="row"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+											fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+											<path
+												d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z" />
+										</svg></th>
+									<td class="display-23"><a
+											href="mailto:akash.ap1283@gmail.com">akash.ap1283@gmail.com
+											<hr style="height:2px;border-width:0;color:gray;background-color:gray">
+										</a></td>
+								</tr>
+							</tbody>
+						</table>
+						</p>
+
+					</div>
+				</div>
 			</div>
 		</div>
 
+
+
 	</div>
+	<br>
 
 
-	<!-- Education Starts Here -->
+	<!-- Education -->
 
-	<div class="education text-white mx-5 my-5">
+	<div class="profile margin-m1 text-white" id="profile">
 
-		<div class="text-left display-3 font-weight-normal mx-5"
-			style="font-family:Georgia ; color:rgb(57, 148, 223); letter-spacing: 6px;">
+		<div class="display-11 margin-m1" style="font-family:Georgia ;color:rgb(57, 148, 223); letter-spacing: 4px;">
 			Education
 			<hr style="height:2px;border-width:0;color:gray;background-color:gray">
 		</div>
 
-		<div class="mx-5">
+
+		<div class="margin-m1 bg-warning">
 
 			<table class="table table-borderless table-dark table-striped">
 
@@ -271,29 +251,25 @@
 				<tbody>
 
 					<tr>
-						<th scope="row "><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+						<th scope="row"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
 								fill="currentColor" class="bi bi-square-fill" viewBox="0 0 16 16">
 								<path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2z" />
 							</svg>
 						</th>
 						<td>
-							<ul class="list-group">
-								<li class="list-group"
-									style="font-family:Arial; font-size: 20px; color:rgb(250, 252, 253);">
-									Bachelor of Engineering in Computer Science (Third Year Pursuing)
-								</li>
-								<li class="list-group" style="font-size: 18px">
-									<em>Dr. D.Y. Patil, Institute of Engineering, Management and Research, Pune</em>
-								</li>
+							<ul class="list-group" style="font-family:Verdana;">
+								<li class="list-group display-31"> Bachelor of Engineering in Computer Science (Third
+									Year
+									Pursuing) </li>
+								<li class="list-group display-32" style="color:rgb(184, 175, 175);"><em> Dr. D.Y. Patil,
+										Institute of Engineering, Management and
+										Research, Pune </em></li>
 							</ul>
 						</td>
 						<td>
-							<ul class="list-group">
-								<li class="list-group"
-									style="font-family:Arial; font-size: 20px; color:rgb(250, 252, 253);">Jun 2018 – Jun
-									2022</li>
-								<li class="list-group"
-									style="font-family:Arial; font-size: 18px; color:rgb(250, 252, 253);">CGPA – 8.66
+							<ul class="list-group display-31">
+								<li class="list-group" style="font-family:Verdana;">Jun 2018 – Jun 2022</li>
+								<li class="list-group" style="font-family:Verdana;">CGPA – 8.66
 								</li>
 							</ul>
 						</td>
@@ -306,23 +282,16 @@
 							</svg>
 						</th>
 						<td>
-							<ul class="list-group">
-								<li class="list-group"
-									style="font-family:Arial ; font-size: 20px; color:rgb(250, 252, 253);">
-									Senior Secondary (XII), Science
-								</li>
-								<li class="list-group" style="font-size: 18px">
-									<em>Walchand College, Solapur (Pune Board)</em>
-								</li>
+							<ul class="list-group display-31" style="font-family:Arial;">
+								<li class="list-group"> Senior Secondary (XII), Science </li>
+								<li class="list-group display-32" style="color:rgb(184, 175, 175);"> <em> Walchand
+										College, Solapur (Pune Board) </em> </li>
 							</ul>
 						</td>
 						<td>
-							<ul class="list-group">
-								<li class="list-group"
-									style="font-family:Arial; font-size: 20px; color:rgb(250, 252, 253);">Jun 2016 – Jun
-									2018</li>
-								<li class="list-group"
-									style="font-family:Arial; font-size: 18px; color:rgb(250, 252, 253);">80.62 %</li>
+							<ul class="list-group display-31" style="font-family:Arial;">
+								<li class="list-group"> Jun 2016 – Jun 2018</li>
+								<li class="list-group"> 80.62 % </li>
 							</ul>
 						</td>
 					</tr>
@@ -334,22 +303,17 @@
 							</svg>
 						</th>
 						<td>
-							<ul class="list-group">
-								<li class="list-group"
-									style="font-family:Arial ; font-size: 20px; color:rgb(250, 252, 253);">
-									Secondary (X)
-								</li>
-								<li class="list-group" style="font-size: 18px">
-									<em>Bharati Vidyapeeth, Solapur (Maharashtra State Board)</em>
+							<ul class="list-group display-31" style="font-family:Arial;">
+								<li class="list-group"> Secondary (X) </li>
+								<li class="list-group display-32" style="color:rgb(184, 175, 175);"><em> Bharati
+										Vidyapeeth, Solapur (Maharashtra State Board) </em>
 								</li>
 							</ul>
 						</td>
 						<td>
-							<ul class="list-group">
-								<li class="list-group"
-									style="font-family:Arial; font-size: 20px; color:rgb(250, 252, 253);">Jun 2016</li>
-								<li class="list-group"
-									style="font-family:Arial; font-size: 18px; color:rgb(250, 252, 253);">92.60 %</li>
+							<ul class="list-group display-31" style="font-family:Arial;">
+								<li class="list-group"> Jun 2016 </li>
+								<li class="list-group"> 92.60 % </li>
 							</ul>
 						</td>
 					</tr>
@@ -359,22 +323,25 @@
 			</table>
 		</div>
 
+
+
 	</div>
 	<br>
 
 
+
 	<!-- Technical Skills  -->
 
-	<div class="technical text-white mx-5 my-5" id="skills">
+	<div class="technical text-white margin-m1" id="skills">
 
-		<div class="text-left display-3 mx-5"
+		<div class="text-left margin-m1 display-11"
 			style="font-family:Georgia ; color:rgb(57, 148, 223); letter-spacing: 4px;">
 			Technical Skills
 			<hr style="height:2px;border-width:0;color:gray;background-color:gray">
 		</div>
 
 
-		<div class="mx-5">
+		<div class="margin-m1">
 
 
 			<table class="table table-borderless table-dark table-striped">
@@ -382,20 +349,20 @@
 					<tr>
 						<th scope="col" style="width: 1%;"></th>
 						<th scope="col" style="width: 5%"></th>
-						<th scope="col" style="width: 20%"></th>
+						<th scope="col" style="width: 10%"></th>
 					</tr>
 				</thead>
 				<tbody>
-					<tr>
+					<tr class="display-41" style="font-family:Verdana;">
 						<th scope="row"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
 								fill="currentColor" class="bi bi-square-fill" viewBox="0 0 16 16">
 								<path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2z" />
 							</svg> </th>
-						<td style="font-family:Verdana; font-size: 22px; color:rgb(250, 252, 253);">Languages :</td>
-						<td style="font-family:Verdana; font-size: 22px; color:rgb(250, 252, 253);">Python, JAVA, C++
+						<td style="font-family:Verdana;">Languages :</td>
+						<td style="font-family:Verdana;">Python, JAVA, C++
 						</td>
 					</tr>
-					<tr style="font-family:Verdana; font-size: 22px; color:rgb(250, 252, 253);">
+					<tr class="display-41" style="font-family:Verdana; ">
 						<th scope="row"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
 								fill="currentColor" class="bi bi-square-fill" viewBox="0 0 16 16">
 								<path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2z" />
@@ -403,7 +370,7 @@
 						<td>Web and Database :</td>
 						<td>HTML, CSS, Bootstrap, XML, MySQL, PostgreSQL</td>
 					</tr>
-					<tr style="font-family:Verdana; font-size: 22px; color:rgb(250, 252, 253);">
+					<tr class="display-41" style="font-family:Verdana;">
 						<th scope="row"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
 								fill="currentColor" class="bi bi-square-fill" viewBox="0 0 16 16">
 								<path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2z" />
@@ -422,279 +389,208 @@
 
 	<!-- Projects -->
 
-	<div class="projects text-white mx-5 my-5" id="projects">
+	<div class="project text-white margin-m1" id="projects">
 
-		<div class="text-left display-3 mx-5"
-			style="font-family:Georgia ; color:rgb(57, 148, 223); letter-spacing: 6px;">
+		<div class="text-left margin-m1 display-11"
+			style="font-family:Georgia ; color:rgb(57, 148, 223); letter-spacing: 4px;">
 			Projects
 			<hr style="height:2px;border-width:0;color:gray;background-color:gray">
 		</div>
 
+		<div class="project1 margin-m1 ">
 
-		<div class="row mx-5 my-5">
+			<div class="row my-5">
 
-			<!-- 1st Project -->
-			<div class="col-sm-6">
+				<!-- 1st Project -->
+				<div class="col-sm-6">
+					<div class="card border-success bg-dark">
 
-				<div class="card bg-dark border-success">
-
-					<div class="card-header bg-transparent border-success">
-
-						<div class="row mt-2">
-							<div class="col-sm-8 text-white">
-								<h3 class="card-title" style="font-family:Georgia; font-size:30px;">
-									<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
-										class="bi bi-person-circle" viewBox="0 0 16 16">
-										<path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
-										<path fill-rule="evenodd"
-											d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
-									</svg>
-									Alumni Student Portal
-								</h3>
-							</div>
-							<div class="col-sm-4 text-white ">
-								<a type="button" class="btn btn-success btn-sm"
-									href="https://alumni-student-portal.herokuapp.com/" target="_blank"> Website </a>
+						<div class="card-header bg-transparent border-success display-51"
+							style="font-family:Times New Roman;">
+							<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+								class="bi bi-person-circle" viewBox="0 0 16 16">
+								<path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+								<path fill-rule="evenodd"
+									d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+							</svg>
+							Alumni Student Portal <span class="ml-5 -x-5"> <a type="button"
+									class="btn btn-success btn-sm" href="https://alumni-student-portal.herokuapp.com/"
+									target="_blank"> Website </a>
 								<a type="button" class="btn btn-primary btn-sm ml-3"
 									href="https://github.com/akash-65/Alumni-Student-Portal" target="_blank"> Github
-								</a>
-							</div>
+								</a></span>
 						</div>
-					</div>
 
-					<div class="card-body text-white">
-						<p class="card-text mt-2 text-justify"
-							style="font-family:Verdana ; font-size: 18px; color:rgb(87, 194, 65);">Developed a web-based
-							portal website for the college to track the
-							Alumina &
-							Student. College can have the all records of the students / alumni. In the portal students
-							can interact with alumni, ask them questions. Alumina / Students can write Blogs. Alumina
-							can plan Reunion. Alumni / Students can take Webinar.
-						</p>
-					</div>
+						<div class="card-body text-success display-52" style="font-family:Verdana ;">
+							<p class="card-text text-justify">
+								Developed a web-based portal website for the college to track the
+								Alumina & Student. College can have the all records of the students / alumni. In the
+								portal
+								students can interact with alumni, ask them questions. Alumina / Students can write
+								Blogs.
+								Alumina can plan Reunion. Alumni / Students can take Webinar.
+							</p>
+						</div>
 
-					<div class="card-footer bg-transparent border-success ">
-						<p class="mt-2" style="font-family:Georgia ; font-size: 17px; ">
-							<em><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
-									class="bi bi-bookmark-fill" viewBox="0 0 16 16">
-									<path
-										d="M2 2v13.5a.5.5 0 0 0 .74.439L8 13.069l5.26 2.87A.5.5 0 0 0 14 15.5V2a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2z" />
-								</svg>
-								HTML, CSS, Bootstrap, Django, PostgreSQL, AWS (RDS + S3 Bucket)</em>
-						</p>
+						<div class="card-footer bg-transparent border-success text-justify display-53"
+							style="font-family:Verdana ;">
+							<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+								class="bi bi-bookmark-fill" viewBox="0 0 16 16">
+								<path
+									d="M2 2v13.5a.5.5 0 0 0 .74.439L8 13.069l5.26 2.87A.5.5 0 0 0 14 15.5V2a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2z" />
+							</svg>
+							<em>HTML, CSS, Bootstrap, Django, PostgreSQL, AWS (RDS + S3 Bucket)</em>
+						</div>
+
 					</div>
 				</div>
 
-			</div>
+				<!-- 2nd Project -->
+				<div class="col-sm-6 pad1">
+					<div class="card border-danger bg-dark">
 
-			<!-- 2nd Project -->
-			<div class="col-sm-6">
-
-				<div class="card bg-dark border-warning">
-
-					<div class="card-header bg-transparent border-warning">
-
-						<div class="row mt-2">
-							<div class="col-sm-7 text-white">
-								<h3 class="card-title" style="font-family:Georgia; font-size:30px;">
-									<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
-										class="bi bi-droplet-fill" viewBox="0 0 16 16">
-										<path fill-rule="evenodd"
-											d="M8 16a6 6 0 0 0 6-6c0-1.655-1.122-2.904-2.432-4.362C10.254 4.176 8.75 2.503 8 0c0 0-6 5.686-6 10a6 6 0 0 0 6 6zM6.646 4.646c-.376.377-1.272 1.489-2.093 3.13l.894.448c.78-1.559 1.616-2.58 1.907-2.87l-.708-.708z" />
-									</svg>
-									Blood Donation App
-								</h3>
-							</div>
-							<div class="col-sm-5 text-white ">
-								<a type="button" class="btn btn-success btn-sm ml-4"
+						<div class="card-header bg-transparent border-danger display-51"
+							style="font-family:Times New Roman;">
+							<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+								class="bi bi-droplet-fill" viewBox="0 0 16 16">
+								<path fill-rule="evenodd"
+									d="M8 16a6 6 0 0 0 6-6c0-1.655-1.122-2.904-2.432-4.362C10.254 4.176 8.75 2.503 8 0c0 0-6 5.686-6 10a6 6 0 0 0 6 6zM6.646 4.646c-.376.377-1.272 1.489-2.093 3.13l.894.448c.78-1.559 1.616-2.58 1.907-2.87l-.708-.708z" />
+							</svg>
+							Blood Donation App <span class="ml-3"> <a type="button" class="btn btn-success btn-sm ml-4"
 									href="https://drive.google.com/file/d/1LcwLda6FhEp9bD0WpVYayjkWl_ixuq1c/view"
 									target="_blank"> Application </a>
 								<a type="button" class="btn btn-primary btn-sm ml-3"
-									href="https://github.com/akash-65/Blood-Donation" target="_blank"> Github </a>
-							</div>
-
+									href="https://github.com/akash-65/Blood-Donation" target="_blank"> Github
+								</a></span>
 						</div>
 
-					</div>
+						<div class="card-body text-danger display-52" style="font-family:Verdana ;">
+							<p class="card-text text-justify">
+								Developed a basic Application in which user can registers themselves
+								as a Receiver or as
+								a Donor with the proper details. The Receiver user will see the required blood group in
+								donors list. If user can’t find the required blood group in that case
+								user can make a Blood Request where all users can this that request and help them.
+							</p>
+						</div>
 
-					<div class="card-body text-justify text-warning" style="font-family:Verdana ; font-size: 18px; ">
-
-						<p class="card-text mt-2">Developed a basic Application in which user can registers themselves
-							as a Receiver or as
-							a Donor with the proper details. The Receiver user will see the required blood group in
-							donors list. If user can’t find the required blood group in that case
-							user can make a Blood Request where all users can this that request and help them.
-						</p>
-					</div>
-					<div class="card-footer bg-transparent border-warning ">
-						<p class="mt-2" style="font-family:Georgia ; font-size: 18px;">
+						<div class="card-footer bg-transparent border-danger text-justify display-53"
+							style="font-family:Verdana ;">
 							<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
 								class="bi bi-bookmark-fill" viewBox="0 0 16 16">
 								<path
 									d="M2 2v13.5a.5.5 0 0 0 .74.439L8 13.069l5.26 2.87A.5.5 0 0 0 14 15.5V2a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2z" />
 							</svg>
 							<em>Android, XML, Firebase</em>
-						</p>
+						</div>
+
 					</div>
 				</div>
 
 			</div>
 
 
-		</div>
+			<div class="row justify-content-center">
 
-		<div class="row mx-5 my-5">
+				<!-- 3rd Project -->
+				<div class="col-sm-6">
+					<div class="card border-info bg-dark">
 
-			<!-- 3rd Project -->
-			<div class="col-sm-6">
-
-				<div class="card bg-dark border-info">
-
-					<div class="card-header bg-transparent border-info">
-
-						<div class="row mt-2">
-							<div class="col-sm-8 text-white " style="font-family:Georgia; font-size:32px;">
-								<h3 class="card-title">
-									<i class="fa fa-plane" aria-hidden="true"></i>
-									Flight Reservation System
-								</h3>
-							</div>
-							<div class="col-sm-4 text-white ">
-								<a type="button" class="btn btn-primary btn-sm ml-5"
-									href="https://github.com/akash-65/Elite" target="_blank">Github </a>
-							</div>
-
+						<div class="card-header bg-transparent border-info display-51"
+							style="font-family:Times New Roman;">
+							<i class="fa fa-plane" aria-hidden="true"></i>
+							Flight Reservation System
+							<span class="ml-5 "> <a type="button" class="btn btn-primary btn-sm "
+									href="https://github.com/akash-65/Elite" target="_blank">Github </a></span>
 						</div>
 
-					</div>
+						<div class="card-body text-info display-52" style="font-family:Verdana ;">
+							<p class="card-text text-justify">
+								A website in which user can login, logout, see train details. Users
+								can book, update and cancel tickets. Admin can add & modify train details and manage
+								user information.
+							</p>
+						</div>
 
-					<div class="card-body text-justify"
-						style="font-family:Verdana ; font-size: 18px; color:rgb(65, 175, 194);">
-
-						<p class="card-text mt-2">A website in which user can login, logout, see train details. Users
-							can book, update and cancel tickets. Admin can add & modify train details and manage user
-							information.
-						</p>
-					</div>
-					<div class="card-footer bg-transparent border-info ">
-						<p class="mt-2" style="font-family:Georgia ; font-size: 17px;">
+						<div class="card-footer bg-transparent border-info text-justify display-53"
+							style="font-family:Verdana ;">
 							<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
 								class="bi bi-bookmark-fill" viewBox="0 0 16 16">
 								<path
 									d="M2 2v13.5a.5.5 0 0 0 .74.439L8 13.069l5.26 2.87A.5.5 0 0 0 14 15.5V2a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2z" />
 							</svg>
 							<em>HTML, CSS, Bootstrap, Django, PostgreSQL</em>
-						</p>
-					</div>
-				</div>
-
-			</div>
-
-			<!-- <div class="col-sm-6">
-				<div class="card bg-secondary">
-					<div class="card-body">
-
-						<div class="row">
-							<div class="col-sm-7 text-white ">
-								<h3 class="card-title">Blood Donation App</h3>
-							</div>
-							<div class="col-sm-5 text-white ">
-
-								<button type="button" class="btn btn-success btn-sm ">Application</button>
-								<button type="button" class="btn btn-primary btn-sm ml-3">Github </button>
-
-							</div>
 						</div>
 
-						<p class="card-text mt-2">A basic app in which user can registers themselves as a Receiver or as
-							a Donor with the proper details. If user can’t find the required blood group in that case
-							user can make a Blood Request where all users can this that request and help them.
-						</p>
-
-						<p>
-							<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
-								class="bi bi-bookmark-fill" viewBox="0 0 16 16">
-								<path
-									d="M2 2v13.5a.5.5 0 0 0 .74.439L8 13.069l5.26 2.87A.5.5 0 0 0 14 15.5V2a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2z" />
-							</svg>
-
-							Android, XML, Firebase
-						</p>
-
 					</div>
 				</div>
-			</div> -->
-
+			</div>
 
 		</div>
-
 
 	</div>
 	<br>
 
 
+
+
 	<!-- Activites -->
 
-	<div class="activites text-white mx-5 my-5">
+	<div class="activites text-white margin-m1">
 
-		<div class="text-left display-3 font-weight-normal mx-5"
-			style="font-family:Georgia ; color:rgb(57, 148, 223); letter-spacing: 4px;">
-			Leadership Activities
+		<div class="margin-m1 display-12" style="font-family:Georgia ; color:rgb(57, 148, 223); letter-spacing: 4px;">
+			Leadership Activites
 			<hr style="height:2px;border-width:0;color:gray;background-color:gray">
 		</div>
 
-		<div class="mx-5">
 
-			<div class="row my-4">
-				<div class="text-white ml-3 mr-3">
+		<div class="act1 margin-m1">
+
+			<div class="row my-3">
+
+
+				<div class="col-sm display-52" style="font-family:Verdana ;">
 					<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
 						class="bi bi-award-fill" viewBox="0 0 16 16">
 						<path
 							d="m8 0 1.669.864 1.858.282.842 1.68 1.337 1.32L13.4 6l.306 1.854-1.337 1.32-.842 1.68-1.858.282L8 12l-1.669-.864-1.858-.282-.842-1.68-1.337-1.32L2.6 6l-.306-1.854 1.337-1.32.842-1.68L6.331.864 8 0z" />
 						<path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z" />
 					</svg>
-				</div>
-
-				<div class="text-white" style="font-family:Verdana  ; font-size:24px;">
 					Currently I am working as Technical Head in the <a href="https://compsa.co.in/"
 						target="_blank">COMPSA</a> (College Committee).
 				</div>
+
 			</div>
 
-			<div class="row">
+			<div class="row text-justify my-3">
 
-				<div class="text-white ml-3 mr-3">
+
+				<div class="col-sm display-52" style="font-family:Verdana ;">
 					<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
 						class="bi bi-calendar2-check-fill" viewBox="0 0 16 16">
 						<path
 							d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zm9.954 3H2.545c-.3 0-.545.224-.545.5v1c0 .276.244.5.545.5h10.91c.3 0 .545-.224.545-.5v-1c0-.276-.244-.5-.546-.5zm-2.6 5.854a.5.5 0 0 0-.708-.708L7.5 10.793 6.354 9.646a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z" />
 					</svg>
-				</div>
 
-				<div class="text-white " style="font-family:Verdana; font-size:24px;">
-
-					Recent Activity : <span style="font-family:Verdana; font-size:18px;">Conducted the 2 Days Workshop
+					Recent Activity : <span class="display-52" style="font-family:Verdana;">Conducted the 2 Days
+						Workshop
 						on the Git and GitHub for the all year students at
 						the college level.</span>
 
-					<p class="mt-3" style="font-family:Verdana; font-size:18px;">
+					<p class="display-52 mt-3" style="font-family:Verdana; ">
 
-						Link for the Workshop :
-						<a type="button" class="btn btn-success btn-sm ml-3" href="https://youtu.be/Ie4CvaloQ5s"
-							target="_blank">Day 1</a>
-						<a type="button" class="btn btn-primary btn-sm ml-4" href="https://youtu.be/zunlsqFRyo8"
-							target="_blank">Day 2</a>
+						<em>Link for the Workshop :
+							<a type="button" class="btn btn-success btn-sm ml-3" href="https://youtu.be/Ie4CvaloQ5s"
+								target="_blank">Day 1</a>
+							<a type="button" class="btn btn-primary btn-sm ml-4" href="https://youtu.be/zunlsqFRyo8"
+								target="_blank">Day 2</a></em>
 
 					</p>
-
 				</div>
+
 			</div>
 
-
-
 		</div>
-
-
 
 	</div>
 	<br>
@@ -702,112 +598,73 @@
 
 	<!-- Footer -->
 
-	<footer class="page-footer font-small" id="contact">
 
+	<div class="footer1 text-white mx-0" style="background-color: #302f2f;" id="contact">
 
-		<div class="footer text-white " style="background-color: #302f2f;">
+		<div class="container pt-4">
 
-			<div class="container pt-5">
-
-				<!-- Social buttons -->
-				<ul class="list-unstyled list-inline text-center">
-					<li class="list-inline-item">
-						<a class="btn btn-primary btn-lg btn-floating rounded-circle" style="background-color: #5e8dcc;"
-							href="https://www.linkedin.com/in/akash-patil-80b9b4190/" target="_blank" role="button"><i
-								class="fa fa-linkedin"></i></a>
-					</li>
-					<li class="list-inline-item">
-						<a class="btn btn-primary btn-lg btn-floating rounded-circle" style="background-color: #31363d;"
-							href="https://github.com/akash-65" target="_blank" role="button"><i
-								class="fa fa-github"></i></a>
-					</li>
-					<li class="list-inline-item">
-						<a class="btn btn-primary btn-lg btn-floating rounded-circle" style="background-color: #33dd5e;"
-							href="https://wa.me/7620532296" target="_blank" role="button"><i
-								class="fa fa-whatsapp"></i></a>
-					</li>
-					<li class="list-inline-item">
-						<a class="btn btn-primary btn-lg btn-floating rounded-circle" style="background-color: #e04bc7;"
-							href="https://www.instagram.com/akash_ap65/?utm_medium=copy_link" target="_blank"
-							role="button"><i class="fa fa-instagram"></i></a>
-					</li>
-					<li class="list-inline-item">
-						<a class="btn btn-primary btn-lg btn-floating rounded-circle" style="background-color: #19539e;"
-							href="https://www.facebook.com/people/Akash-Patil/100005675852501/" target="_blank"
-							role="button"><i class="fa fa-facebook"></i></a>
-					</li>
-				</ul>
-
-			</div>
-
-			<div class="d-flex justify-content-center" style="font-family:Times New Roman; font-size:20px;">
-
-				<p class=" mt-3 mb-4">
-					<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
-						class="bi bi-person-fill" viewBox="0 0 16 16">
-						<path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
-					</svg>
-					Akash Ashok Patil
-				</p>
-				<p class="ml-5 mt-3">
-					<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
-						class="bi bi-telephone-fill" viewBox="0 0 16 16">
-						<path fill-rule="evenodd"
-							d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
-					</svg>
-					7620532296
-				</p>
-				<p class="ml-5 mt-3">
-					<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
-						class="bi bi-envelope-fill" viewBox="0 0 16 16">
-						<path
-							d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z" />
-					</svg>
-					<a href="mailto:akash.ap1283@gmail.com"> akash.ap1283@gmail.com </a>
-
-				</p>
-
-				<p class="ml-5 mt-3">
-					<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
-						class="bi bi-file-image" viewBox="0 0 16 16">
-						<path d="M8.002 5.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z" />
-						<path
-							d="M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM3 2a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v8l-2.083-2.083a.5.5 0 0 0-.76.063L8 11 5.835 9.7a.5.5 0 0 0-.611.076L3 12V2z" />
-					</svg>
-					Image Credits :- <a href='https://pngtree.com/so/digital' target="_blank"> pngtree.com </a>
-				</p>
-
-				<!-- <p>
-					<a href='https://pngtree.com/so/color-icons'>color icons png from pngtree.com</a>
-					<a href='https://pngtree.com/so/digital'>digital png from pngtree.com</a>
-				</p> -->
-
-
-			</div>
+			<ul class="list-unstyled list-inline text-center">
+				<li class="list-inline-item">
+					<a class="btn btn-primary btn-lg btn-floating rounded-circle" style="background-color: #5e8dcc;"
+						href="https://www.linkedin.com/in/akash-patil-80b9b4190/" target="_blank" role="button"><i
+							class="fa fa-linkedin"></i></a>
+				</li>
+				<li class="list-inline-item">
+					<a class="btn btn-primary btn-lg btn-floating rounded-circle" style="background-color: #31363d;"
+						href="https://github.com/akash-65" target="_blank" role="button"><i
+							class="fa fa-github"></i></a>
+				</li>
+				<li class="list-inline-item">
+					<a class="btn btn-primary btn-lg btn-floating rounded-circle" style="background-color: #33dd5e;"
+						href="https://wa.me/7620532296" target="_blank" role="button"><i class="fa fa-whatsapp"></i></a>
+				</li>
+				<li class="list-inline-item">
+					<a class="btn btn-primary btn-lg btn-floating rounded-circle" style="background-color: #e04bc7;"
+						href="https://www.instagram.com/akash_ap65/?utm_medium=copy_link" target="_blank"
+						role="button"><i class="fa fa-instagram"></i></a>
+				</li>
+				<li class="list-inline-item">
+					<a class="btn btn-primary btn-lg btn-floating rounded-circle" style="background-color: #19539e;"
+						href="https://www.facebook.com/people/Akash-Patil/100005675852501/" target="_blank"
+						role="button"><i class="fa fa-facebook"></i></a>
+				</li>
+			</ul>
 
 		</div>
 
-	</footer>
+		<div class="text-center display-52 mt-2 pb-3" style="font-family:verdana;">
+			© Akash Patil 2021
+
+
+		</div>
+
+		
 
 
 
 
-	<!-- Optional JavaScript; choose one of the two! -->
+		<!-- Optional JavaScript; choose one of the two! -->
 
-	<!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-		crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
-		integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
-		crossorigin="anonymous"></script>
+		<!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+			integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+			crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+			crossorigin="anonymous"></script>
 
-	<!-- Option 2: Separate Popper and Bootstrap JS -->
-	<!--
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
-	-->
+		<!-- Option 2: Separate Popper and Bootstrap JS -->
+
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+			integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+			crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+			integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+			crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+			integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+			crossorigin="anonymous"></script>
+
 </body>
 
 </html>
